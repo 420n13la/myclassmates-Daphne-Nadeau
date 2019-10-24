@@ -1,3 +1,59 @@
+<style>
+
 body{
-	
+	background-image: url(images/pattern.png);
+	text-align: center;
+}
+
+#image{
+	width: 33%;
+	float: left;
+	border-style: solid;
+	border-color: white;
+	text-align: center;
+	margin: 5px;
+	padding: 0px;
+}
+
+img{
+	width: 100%;
+	margin: -15px -20px;
+}
+
+h1{
+	border-color: yellow;
+	border-style: dashed;
+	width: 350px;
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+	border-radius: 20px 50px 20px 50px;
+	font-family: arial;
+	color: white;
+	font-size: 45px;
+}
+
+p{
+	color: white;
+	font-family: arial;
+}
+
+#text{
+	border-style: inset;
+	border-color: yellow;
+	font-family: arial;
+	border-width: 2px;
+	color: yellow;
+}
+
+footer{
+	text-align: center;
+}
+
+#wrapper{
+	display: flex;
+	flex-direction: row;
+	border-bottom-color: yellow;
+	border-bottom-style: dashed;
+	padding: 40px;
 }
